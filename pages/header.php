@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Chiranjiv's eyes</title>
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     </head>
     <body>
@@ -14,6 +14,12 @@
             <div class="header">
                 <div class="logo-menu">
                     <div class="logo">Chiranjiv's eyes</div>
+                    <div class="main-header">
+                    <div class="input">
+                        <input type="text" placeholder="Search Images...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
                     <div class="menu">
                         <a href="#" id="close-dropdown">X</a>
                         <a href="#">About us</a>
@@ -23,13 +29,7 @@
                     </div>
                 <i class="fas fa-th-list drop-down"></i>
                 </div>
-                <div class="main-header">
-                    <p>The best photos shared by Chiranjiv Sharma.</p>
-                    <div class="input">
-                        <input type="text" placeholder="Search Images...">
-                        <i class="fas fa-search"></i>
-                    </div>
-                </div>
+            
                 
 
             </div>
@@ -77,16 +77,7 @@
                 </div>
             </div>
         </div>
-        <div class="login-form">
-            <div class="close-form">X</div>
-            <form action="#" method="post">
-                <label for="user">Username</label>
-                <input type="text" name="user" id="name">
-                <label for="password">Password</label>
-                <input type="text" name="password" id="password">
-                <button type="submit" name="submit">Submit</button>
-            </form>
-        </div>
+
     
 
     </body>
@@ -96,9 +87,7 @@
         const drop_down = document.querySelector(".drop-down");
         const close_dropdown = document.querySelector("#close-dropdown");
         const menu =  document.querySelector(".menu");
-        const admin = document.querySelector("#admin");
-        const form = document.querySelector(".login-form");
-        const close_form = document.querySelector(".close-form");
+
         drop_down.addEventListener("click", ()=>{
            menu.style.display="flex";
         })
@@ -106,14 +95,6 @@
         close_dropdown.addEventListener("click", ()=>{
             menu.style.display = "none";
         })
-
-        admin.addEventListener("click", ()=>{
-           form.style.display = "flex";
-        })
-        close_form.addEventListener("click", ()=>{
-            form.style.display = "none";
-        })
-
     </script>
 <?php
 
