@@ -1,6 +1,10 @@
 <?php
-    $target_dir = "uploads/";
-    $target_file = $target_dir.basename($_FILES["fileToUpload"]["name"]);
-    $uploadOk = 1;
-    $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+    function divide($dividend, $divisor)
+    {
+        if($divisor == 0)
+            throw new Exception("Division by zero");
+        return $dividend / $divisor;
+    }
+    echo divide(5,0);
+
 ?>

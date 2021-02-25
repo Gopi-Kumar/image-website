@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 *{
     margin:0;
     padding:0;
@@ -28,7 +29,8 @@ body{
 .header .logo-menu .logo{
     color:white;
     font-size: 30px;
-    font-family: 'Potta One', cursive;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 5px 10px black;
 }
 .header .logo-menu .menu a{
     color:white;
@@ -37,6 +39,14 @@ body{
     font-size: 20px;
     text-transform: uppercase;
     font-weight: lighter;
+    cursor:pointer;
+
+}
+.header .logo-menu .menu #close-dropdown{
+    display:none;
+}
+.header .logo-menu  i{
+    display:none;
 }
 .header .logo-menu .menu #admin{
     background-color: rgb(31, 31, 31);
@@ -57,6 +67,7 @@ body{
     font-size:30px;
     margin-bottom: 10px;
     font-weight: bold;
+    text-align: center;
 
 }
 .header .main-header .input{
@@ -131,4 +142,98 @@ body{
     color:white;
     align-items: center;
     justify-content: space-around;
+}
+.footer .about-developer a{
+    color:yellow;
+}
+.footer .social-media .fab{
+    font-size: 25px;
+    padding:0rem 0.5rem ;
+    
+
+}
+.fa-facebook{
+    color:rgb(33, 33, 255);
+    text-shadow: 1px 1px rgb(24, 14, 68) ;
+}
+.fa-instagram-square{
+    color:rgb(237, 64, 64);
+    text-shadow: 1px 1px rgb(68, 0, 0) ;
+}
+.fa-twitter{
+    color:rgb(0, 125, 163);
+    text-shadow: 1px 1px rgb(0, 66, 97) ;
+}
+
+@media only screen and (max-width: 680px){
+    .header .logo-menu .logo{
+        font-size: 35px;
+    }
+    .header .logo-menu .menu{
+        display:none;
+        position:absolute;
+        top:0;
+        left:0;
+        flex-direction: column;
+        width:100%;
+        height:100%;
+        background-color: rgb(0, 25, 80);
+        justify-content:center;
+        align-items: center;
+    }
+    .header .logo-menu .menu a{
+        margin:2rem;
+        font-size: 34px;
+    }
+    .header .logo-menu .menu #close-dropdown{
+        position:absolute;
+        display:block;
+        top:3px;
+        right:2px;
+        font-weight: bold;
+        background-color: black;
+        padding:0.5rem 1rem ;
+        border-radius: 10px;
+    }
+    .header .logo-menu  i{
+        display:block;
+        color:white;
+        font-size: 30px;
+        cursor:pointer;
+        
+    }
+    .header .main-header input{
+        width: 400px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+
+}
+@media only screen and (max-width: 520px){
+    .header .main-header input{
+        width: 350px;
+    }
+    .header .main-header p{
+        font-size: 20px;
+    }
+    .images img{
+        height: 300px;
+        margin:5px;
+    }
+}
+@media only screen and (max-width: 420px){
+    .header .main-header input{
+        width: 300px;
+    }
+    .header .main-header p{
+        font-size: 20px;
+    }
+    .images img{
+        height: 260px;
+        margin:5px;
+    }
+    .type-section {
+        font-size: 15px;
+    }
 }
