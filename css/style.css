@@ -164,7 +164,7 @@ body{
     color:rgb(0, 125, 163);
     text-shadow: 1px 1px rgb(0, 66, 97) ;
 }
-
+.message-form,
 .login-form{
     position:absolute;
     top:0;
@@ -176,6 +176,7 @@ body{
     align-items: center;
     justify-content:center;
 }
+.message-form form,
 .login-form form{
     display:flex;
     flex-direction: column;
@@ -183,16 +184,22 @@ body{
     width:400px;
     padding:2rem;
     border-radius: 10px;
+    margin:30px auto;
 }
+.message-form label,
+.message-form input,
+.message-form button
 .login-form label,
 .login-form input,
 .login-form button{
     margin-top:1rem;
 }
+.message-form input,
 .login-form input{
     height: 40px;
     font-size: 20px;
 }
+.message-form button,
 .login-form button{
     background-color:rgb(0,25,80);
     width:100px;
@@ -205,6 +212,7 @@ body{
     margin-left: calc(50% - 50px);
     cursor: pointer;
 }
+.close-message-form,
 .close-form{
     font-size: 35px;
     color:white;

@@ -17,7 +17,7 @@
                     <div class="menu">
                         <a href="#" id="close-dropdown">X</a>
                         <a href="#">About us</a>
-                        <a href="#">More</a>
+                        <a href="#" id="message">Message us</a>
                         <a href="#" id="admin">Admin</a>
                     
                     </div>
@@ -81,12 +81,26 @@
             <div class="close-form">X</div>
             <form action="#" method="post">
                 <label for="user">Username</label>
-                <input type="text" name="user" id="name">
+                <input type="text" name="user" id="user">
                 <label for="password">Password</label>
                 <input type="text" name="password" id="password">
                 <button type="submit" name="submit">Submit</button>
             </form>
         </div>
+        
+
+
+        <div class="message-form">
+            <div class="close-message-form">X</div>
+            <form action="./pages/send-message.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                <label for="message">Your Messasge</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <button type="submit" name="submit">Send</button>
+            </form>
+        </div>
+        
     
 
     </body>
@@ -99,6 +113,10 @@
         const admin = document.querySelector("#admin");
         const form = document.querySelector(".login-form");
         const close_form = document.querySelector(".close-form");
+        const message = document.querySelector("#message");
+        const message_form = document.querySelector(".message-form");
+        const close_message_form = document.querySelector(".close-message-form");
+
         drop_down.addEventListener("click", ()=>{
            menu.style.display="flex";
         })
@@ -112,6 +130,13 @@
         })
         close_form.addEventListener("click", ()=>{
             form.style.display = "none";
+        })
+
+        message.addEventListener("click", ()=>{
+            message_form.style.display = "block"
+        })
+        close_message_form.addEventListener("click", ()=>{
+            message_form.style.display = "none";
         })
 
     </script>
