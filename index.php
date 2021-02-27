@@ -40,30 +40,75 @@
                 <div class="human">Human</div>
             </div>
             <div class="images">
-            <img src="./images/1.jpg">
-            <img src="./images/2.jpg">
-            <img src="./images/3.jpg">
-            <img src="./images/4.jpg">
-            <img src="./images/5.jpg">
-            <img src="./images/6.jpg">
-            <img src="./images/1.jpg">
-            <img src="./images/2.jpg">
-            <img src="./images/3.jpg">
-            <img src="./images/4.jpg">
-            <img src="./images/5.jpg">
-            <img src="./images/6.jpg">
-            <img src="./images/1.jpg">
-            <img src="./images/2.jpg">
-            <img src="./images/3.jpg">
-            <img src="./images/4.jpg">
-            <img src="./images/5.jpg">
-            <img src="./images/6.jpg">
-            <img src="./images/1.jpg">
-            <img src="./images/2.jpg">
-            <img src="./images/3.jpg">
-            <img src="./images/4.jpg">
-            <img src="./images/5.jpg">
-            <img src="./images/6.jpg">
+                <div>
+                <img src="./images/1.jpg">
+                <img src="./images/2.jpg">
+                <img src="./images/3.jpg">
+                <img src="./images/4.jpg">
+                <img src="./images/5.jpg">
+                <img src="./images/6.jpg">
+                <img src="./images/1.jpg">
+                <img src="./images/2.jpg">
+                <img src="./images/3.jpg">
+                <img src="./images/4.jpg">
+                <img src="./images/5.jpg">
+                <img src="./images/6.jpg">
+                <img src="./images/1.jpg">
+                <img src="./images/2.jpg">
+                <img src="./images/3.jpg">
+                <img src="./images/4.jpg">
+                <img src="./images/5.jpg">
+                <img src="./images/6.jpg">
+                <img src="./images/1.jpg">
+                <img src="./images/2.jpg">
+            
+                </div>
+                <div>
+              
+                <img src="./images/5.jpg">
+                <img src="./images/6.jpg">
+                <img src="./images/1.jpg">
+                <img src="./images/2.jpg">
+                <img src="./images/3.jpg">
+                <img src="./images/4.jpg">
+                <img src="./images/5.jpg">
+                <img src="./images/6.jpg">
+                <img src="./images/1.jpg">
+                <img src="./images/2.jpg">
+                <img src="./images/3.jpg">
+                <img src="./images/4.jpg">
+                <img src="./images/5.jpg">
+                <img src="./images/6.jpg">
+                <img src="./images/1.jpg">
+                <img src="./images/2.jpg">
+                <img src="./images/3.jpg">
+                <img src="./images/4.jpg">
+                <img src="./images/5.jpg">
+                <img src="./images/6.jpg">
+                </div>
+                <div>
+                <img src="./images/1.jpg">
+                <img src="./images/2.jpg">
+                <img src="./images/3.jpg">
+                <img src="./images/4.jpg">
+                <img src="./images/5.jpg">
+                <img src="./images/6.jpg">
+                <img src="./images/1.jpg">
+                <img src="./images/2.jpg">
+                <img src="./images/3.jpg">
+                <img src="./images/4.jpg">
+                <img src="./images/5.jpg">
+              
+                <img src="./images/4.jpg">
+                <img src="./images/5.jpg">
+                <img src="./images/6.jpg">
+                <img src="./images/1.jpg">
+                <img src="./images/2.jpg">
+                <img src="./images/3.jpg">
+                <img src="./images/4.jpg">
+                <img src="./images/5.jpg">
+                <img src="./images/6.jpg">
+                </div>
             </div>
             <div class="footer">
                 <div class="social-media">
@@ -79,7 +124,7 @@
         </div>
         <div class="login-form">
             <div class="close-form">X</div>
-            <form action="#" method="post">
+            <form action="./pages/admin-login.php" method="post">
                 <label for="user">Username</label>
                 <input type="text" name="user" id="user">
                 <label for="password">Password</label>
