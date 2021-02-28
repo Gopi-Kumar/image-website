@@ -1,4 +1,8 @@
 <?php
+    session_start();
+    $_SESSION['userLogged'] = false;
+    $_SESSION['accessPages'] = false;
+ 
 ?>
     <!DOCTYPE html>
     <html lang="en">
