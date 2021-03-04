@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&family=Potta+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import './mobile_style.css';
 *{
     margin:0;
     padding:0;
@@ -287,9 +288,27 @@ body{
         margin:5px;
     }
 }
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 450px){
     .header .main-header input{
         width: 300px;
+    }
+    .header .main-header p{
+        font-size: 20px;
+    }
+    .images img{
+        /* height: 260px; */
+        margin:5px;
+    }
+    .type-section {
+        font-size: 15px;
+    }
+    .images img{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .header .main-header input{
+        width: 250px;
     }
     .header .main-header p{
         font-size: 20px;
