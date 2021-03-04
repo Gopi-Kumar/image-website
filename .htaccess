@@ -1,0 +1,4 @@
+ErrorDocument 404 http://localhost/chiranjiv's%20eyes/notfound.php
+ErrorDocument 401 http://localhost/chiranjiv's%20eyes/sww.php
+ErrorDocument 402 http://localhost/chiranjiv's%20eyes/sww.php
+ErrorDocument 403 http://localhost/chiranjiv's%20eyes/sww.php
