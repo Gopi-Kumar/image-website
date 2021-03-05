@@ -191,7 +191,7 @@ body{
     width:400px;
     padding:2rem;
     border-radius: 10px;
-    margin:30px auto;
+    margin:80px auto;
 }
 .message-form label,
 .message-form input,
@@ -215,6 +215,7 @@ body{
     padding:1rem 2rem;
     outline:none;
     border:none;
+    margin-top:5px;
     border-radius: 5px;
     margin-left: calc(50% - 50px);
     cursor: pointer;
@@ -232,6 +233,10 @@ body{
 @media only screen and (max-width: 680px){
     .header .logo-menu .logo{
         font-size: 35px;
+    }
+    .message-form form{
+        width: 350px;
+        
     }
     .header .logo-menu .menu{
         display:none;
@@ -280,6 +285,9 @@ body{
     .header .main-header input{
         width: 350px;
     }
+    .header .logo-menu .logo{
+        font-size: 30px;
+    }
     .header .main-header p{
         font-size: 20px;
     }
@@ -288,9 +296,27 @@ body{
         margin:5px;
     }
 }
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 470px){
     .header .main-header input{
         width: 300px;
+    }
+    .header .main-header p{
+        font-size: 25px;
+    }
+    .images img{
+        /* height: 260px; */
+        margin:2px;
+    }
+    .type-section {
+        font-size: 15px;
+    }
+    .images img{
+        width: 250px;
+    }
+}
+@media only screen and (max-width: 420px){
+    .header .main-header input{
+        width: 250px;
     }
     .header .main-header p{
         font-size: 20px;
@@ -306,9 +332,13 @@ body{
         width: 300px;
     }
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 360px){
+    .message-form form{
+        width: 330px;
+        
+    }
     .header .main-header input{
-        width: 250px;
+        width: 200px;
     }
     .header .main-header p{
         font-size: 20px;
